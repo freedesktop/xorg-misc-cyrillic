@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT(font-misc-cyrillic, [7.0], [xorg@freedestkop.org], font-misc-cyrillic)
+AC_INIT(font-misc-cyrillic, [0.99.0], [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg], font-misc-cyrillic)
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
 AM_MAINTAINER_MODE
 
@@ -31,5 +31,7 @@ AC_PROG_INSTALL
 AC_PATH_PROG(BDFTOPCF, bdftopcf)
 AC_PATH_PROG(MKFONTSCALE, mkfontscale)
 AC_PATH_PROG(MKFONTDIR, mkfontdir)
+
+XORG_RELEASE_VERSION
 
 AC_OUTPUT([Makefile])
