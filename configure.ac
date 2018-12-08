@@ -23,7 +23,7 @@ dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
 AC_INIT([font-misc-cyrillic], [1.0.3],
-        [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],
+        [https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/issues],
         [font-misc-cyrillic])
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
 
